@@ -2,7 +2,7 @@
 //  SearchViewExamplesApp.swift
 //  SearchViewExamples
 //
-//  Created by 16Root19 on 26/02/2024.
+//  Created by Abdullah Alhaider on 26/02/2024.
 //
 
 import SwiftUI
