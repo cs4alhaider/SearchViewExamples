@@ -16,7 +16,7 @@ struct Country: Codable, Identifiable, Equatable, Searchable {
     let code: String?
     
     var idStringValue: String {
-        id.uuidString
+        code ?? id.uuidString
     }
 
     enum CodingKeys: String, CodingKey {

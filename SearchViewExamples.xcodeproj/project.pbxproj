@@ -18,7 +18,8 @@
 		CBE55F372B8CB6F3000D8E3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F362B8CB6F2000D8E3F /* Extensions.swift */; };
 		CBE55F3A2B8CCD3A000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F392B8CCD3A000D8E3F /* SearchView */; };
 		CBE55F3D2B8CCD77000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F3C2B8CCD77000D8E3F /* SearchView */; };
-		CBE55F412B8DE725000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F402B8DE725000D8E3F /* SearchView */; };
+		CBE55F442B8E24B7000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F432B8E24B7000D8E3F /* SearchView */; };
+		CBE55F472B8E3052000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F462B8E3052000D8E3F /* SearchView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,8 @@
 			files = (
 				CBE55F3A2B8CCD3A000D8E3F /* SearchView in Frameworks */,
 				CBE55F3D2B8CCD77000D8E3F /* SearchView in Frameworks */,
-				CBE55F412B8DE725000D8E3F /* SearchView in Frameworks */,
+				CBE55F442B8E24B7000D8E3F /* SearchView in Frameworks */,
+				CBE55F472B8E3052000D8E3F /* SearchView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +127,8 @@
 			packageProductDependencies = (
 				CBE55F392B8CCD3A000D8E3F /* SearchView */,
 				CBE55F3C2B8CCD77000D8E3F /* SearchView */,
-				CBE55F402B8DE725000D8E3F /* SearchView */,
+				CBE55F432B8E24B7000D8E3F /* SearchView */,
+				CBE55F462B8E3052000D8E3F /* SearchView */,
 			);
 			productName = SearchViewExamples;
 			productReference = CBE55F182B8CB450000D8E3F /* SearchViewExamples.app */;
@@ -156,7 +159,7 @@
 			);
 			mainGroup = CBE55F0F2B8CB450000D8E3F;
 			packageReferences = (
-				CBE55F3F2B8DE725000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */,
+				CBE55F452B8E3052000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */,
 			);
 			productRefGroup = CBE55F192B8CB450000D8E3F /* Products */;
 			projectDirPath = "";
@@ -411,7 +414,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CBE55F3F2B8DE725000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */ = {
+		CBE55F452B8E3052000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/cs4alhaider/SearchView.git";
 			requirement = {
@@ -430,9 +433,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = SearchView;
 		};
-		CBE55F402B8DE725000D8E3F /* SearchView */ = {
+		CBE55F432B8E24B7000D8E3F /* SearchView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CBE55F3F2B8DE725000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */;
+			productName = SearchView;
+		};
+		CBE55F462B8E3052000D8E3F /* SearchView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE55F452B8E3052000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */;
 			productName = SearchView;
 		};
 /* End XCSwiftPackageProductDependency section */

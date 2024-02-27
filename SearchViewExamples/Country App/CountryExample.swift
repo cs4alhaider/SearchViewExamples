@@ -56,7 +56,7 @@ struct SelectCountryView: View {
                 CountryListCellView(country: country)
                     .onTapGesture {
                         updateWith(selected: country)
-                }
+                    }
             }
             .navigationTitle("Selecte Country")
         }
