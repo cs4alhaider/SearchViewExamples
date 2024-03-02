@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB34A0E32B92976900AFACB6 /* CountryKit in Frameworks */ = {isa = PBXBuildFile; productRef = CB34A0E22B92976900AFACB6 /* CountryKit */; };
 		CBE55F1C2B8CB450000D8E3F /* SearchViewExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F1B2B8CB450000D8E3F /* SearchViewExamplesApp.swift */; };
 		CBE55F1E2B8CB450000D8E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F1D2B8CB450000D8E3F /* ContentView.swift */; };
 		CBE55F202B8CB452000D8E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE55F1F2B8CB452000D8E3F /* Assets.xcassets */; };
@@ -14,8 +15,6 @@
 		CBE55F2B2B8CB471000D8E3F /* FruitsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F2A2B8CB471000D8E3F /* FruitsExample.swift */; };
 		CBE55F2D2B8CB4A1000D8E3F /* CountryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F2C2B8CB4A1000D8E3F /* CountryExample.swift */; };
 		CBE55F342B8CB6AE000D8E3F /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = CBE55F322B8CB6AE000D8E3F /* countryCodes.json */; };
-		CBE55F352B8CB6AE000D8E3F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F332B8CB6AE000D8E3F /* Country.swift */; };
-		CBE55F372B8CB6F3000D8E3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE55F362B8CB6F2000D8E3F /* Extensions.swift */; };
 		CBE55F3A2B8CCD3A000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F392B8CCD3A000D8E3F /* SearchView */; };
 		CBE55F3D2B8CCD77000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F3C2B8CCD77000D8E3F /* SearchView */; };
 		CBE55F442B8E24B7000D8E3F /* SearchView in Frameworks */ = {isa = PBXBuildFile; productRef = CBE55F432B8E24B7000D8E3F /* SearchView */; };
@@ -32,8 +31,6 @@
 		CBE55F2A2B8CB471000D8E3F /* FruitsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsExample.swift; sourceTree = "<group>"; };
 		CBE55F2C2B8CB4A1000D8E3F /* CountryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryExample.swift; sourceTree = "<group>"; };
 		CBE55F322B8CB6AE000D8E3F /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
-		CBE55F332B8CB6AE000D8E3F /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		CBE55F362B8CB6F2000D8E3F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +40,7 @@
 			files = (
 				CBE55F3A2B8CCD3A000D8E3F /* SearchView in Frameworks */,
 				CBE55F3D2B8CCD77000D8E3F /* SearchView in Frameworks */,
+				CB34A0E32B92976900AFACB6 /* CountryKit in Frameworks */,
 				CBE55F442B8E24B7000D8E3F /* SearchView in Frameworks */,
 				CBE55F472B8E3052000D8E3F /* SearchView in Frameworks */,
 			);
@@ -93,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				CBE55F2C2B8CB4A1000D8E3F /* CountryExample.swift */,
-				CBE55F332B8CB6AE000D8E3F /* Country.swift */,
-				CBE55F362B8CB6F2000D8E3F /* Extensions.swift */,
 				CBE55F322B8CB6AE000D8E3F /* countryCodes.json */,
 			);
 			path = "Country App";
@@ -129,6 +125,7 @@
 				CBE55F3C2B8CCD77000D8E3F /* SearchView */,
 				CBE55F432B8E24B7000D8E3F /* SearchView */,
 				CBE55F462B8E3052000D8E3F /* SearchView */,
+				CB34A0E22B92976900AFACB6 /* CountryKit */,
 			);
 			productName = SearchViewExamples;
 			productReference = CBE55F182B8CB450000D8E3F /* SearchViewExamples.app */;
@@ -160,6 +157,7 @@
 			mainGroup = CBE55F0F2B8CB450000D8E3F;
 			packageReferences = (
 				CBE55F452B8E3052000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */,
+				CB34A0E12B92976900AFACB6 /* XCLocalSwiftPackageReference "../Development/CountryKit" */,
 			);
 			productRefGroup = CBE55F192B8CB450000D8E3F /* Products */;
 			projectDirPath = "";
@@ -189,10 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE55F1E2B8CB450000D8E3F /* ContentView.swift in Sources */,
-				CBE55F372B8CB6F3000D8E3F /* Extensions.swift in Sources */,
 				CBE55F1C2B8CB450000D8E3F /* SearchViewExamplesApp.swift in Sources */,
 				CBE55F2B2B8CB471000D8E3F /* FruitsExample.swift in Sources */,
-				CBE55F352B8CB6AE000D8E3F /* Country.swift in Sources */,
 				CBE55F2D2B8CB4A1000D8E3F /* CountryExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +409,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		CB34A0E12B92976900AFACB6 /* XCLocalSwiftPackageReference "../Development/CountryKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Development/CountryKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		CBE55F452B8E3052000D8E3F /* XCRemoteSwiftPackageReference "SearchView" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -425,6 +428,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CB34A0E22B92976900AFACB6 /* CountryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CountryKit;
+		};
 		CBE55F392B8CCD3A000D8E3F /* SearchView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SearchView;
